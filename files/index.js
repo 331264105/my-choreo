@@ -6,8 +6,8 @@ const UUID = process.env.UUID || '986e0d08-b275-4dd3-9e75-f3094b36fa2a'; //若�
 const NEZHA_SERVER = process.env.NEZHA_SERVER || 'nz.0vv0.filegear-sg.me';     
 const NEZHA_PORT = process.env.NEZHA_PORT || '443';                     // 哪吒端口为{443,8443,2096,2087,2083,2053}其中之一开启tls
 const NEZHA_KEY = process.env.NEZHA_KEY || '2cvWBRAbxfgZR23iX1';
-const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreome.0vv0.filegear-sg.me';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
-const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiODMyNGQ4NWZmMmEwMTJjZmJkZjc2MGI0OTk1NmY1NmEiLCJ0IjoiNzk1NmU1ZTktZDE4YS00ODY3LWFmZWMtYzExMGZlOGI2OWI3IiwicyI6Ik5UTTVZVFptTnpRdFkyWmxNQzAwTURKbExUazFORGd0T0RSbFpqUTRZbVUwT0RWbCJ9';
+const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreome.flysky.us.kg';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
+const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiODMyNGQ4NWZmMmEwMTJjZmJkZjc2MGI0OTk1NmY1NmEiLCJ0IjoiZWNmM2Q1OGQtZDk3Zi00OTY2LWEzYjctNDdlYzQ4MjkyYTMxIiwicyI6Ik16UTROell3TURBdE16RTJaUzAwTVdNM0xXRXlaalF0WkRnMlpXWTVObUV4T1RVMyJ9';
 
 //const ARGO_DOMAIN = process.env.ARGO_DOMAIN || 'choreo.zzx.free.hr';     // 建议使用token，argo端口8080，cf后台设置需对应,使用json需上传json和yml文件至files目录
 //const ARGO_AUTH = process.env.ARGO_AUTH || 'eyJhIjoiOGI5NzI0MDgwZTU1ZTcwMzcwZmI3NDI4NzkyMmYzMWIiLCJ0IjoiOGNlY2VlYzQtYzZiNi00N2VkLThhZjItY2I4MThmMDkxZWJkIiwicyI6Ik5XWTFNV1ZsWm1NdFpEYzJZeTAwWkdSaExUbGtZall0TnpneVpqZ3haVE00WkRBNSJ9';
